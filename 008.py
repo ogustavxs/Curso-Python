@@ -1,0 +1,2 @@
+tam = float(input("Digite o tamanho em metros: "))
+print('O valor do tamanho convertido em centimetros é de {:.2f}cm\nO valor do tamanho convertido em milimetros é {:.2f}mm'.format(tam*100, tam*1000))
